@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Stock Screener Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built with React for screening stock data. It fetches data from a backend API and allows users to filter and search through a list of stocks.
 
-## Available Scripts
+### Installation
+Clone the repository:
 
-In the project directory, you can run:
+### bash
+git clone https://github.com/yourusername/stock-screener-web.git
+cd stock-screener-web
+Install dependencies:
 
-### `npm start`
+bash
+npm install
+Start the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+npm start
+The app will be available at http://localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
+View a list of stocks with various details such as symbol, company name, market cap, stock price, volume, and dividend yield.
+Filter stocks based on price, market cap, dividend yield, and volume.
+Search for stocks by symbol or company name.
+Interactive table with pagination and sorting functionality.
+Usage
+Stock List Page: The main page of the application displays a table of stocks.
 
-### `npm test`
+Filtering:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Click the "Filter by" button to reveal filter options.
+Select desired filters such as price, market cap, dividend yield, or volume.
+Click "Apply" to filter the stocks based on the selected criteria.
+Search:
 
-### `npm run build`
+Use the search bar to search for stocks by symbol or company name.
+The table will update in real-time as you type.
+Pagination:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate through multiple pages of stock data using the pagination controls at the bottom of the table.
+Responsive Design:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application is designed to be responsive and work well on desktop and mobile devices.
+Components
+StockList Component
+The StockList component is the main component responsible for displaying the list of stocks, applying filters, and handling search functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Filter Component
+The Filter component is used to display filter options and allows users to select filters such as price, market cap, dividend yield, and volume.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.Fork the repository.
+2.Create a new branch (git checkout -b feature/new-feature).
+3.Make your changes.
+4.Commit your changes (git commit -am 'Add new feature').
+5.Push to the branch (git push origin feature/new-feature).
+6.Create a new Pull Request.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
